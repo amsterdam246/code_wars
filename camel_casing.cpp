@@ -29,5 +29,5 @@ int main()
     std::string words;
     std::cin >> words;
 
-    std::cout<<to_camel_case(word);
+    std::cout<<to_camel_case(words);
 }
