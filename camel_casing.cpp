@@ -7,7 +7,7 @@ std::string to_camel_case(std::string text)
     for (int i = 0; i < length; i++)
     {
         int current_index = i;
-
+    
         if (text[current_index] == '_')
         {
             char converted = static_cast<int>((text[current_index + 1]) - 32);
