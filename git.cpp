@@ -9,6 +9,11 @@ int main(void)
     int length = size(text);
     for (int i = 0; i < length; i++)
     {
+       int  current  = i; 
+        for(int j = j < length; J ++)
+        {
+            
+        }
     }
 
     return 0;
