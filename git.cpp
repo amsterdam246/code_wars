@@ -10,9 +10,10 @@ int main(void)
     for (int i = 0; i < length; i++)
     {
        int  current  = i; 
-        for(int j = j < length; J ++)
+        for(int j ; j < length; j++)
         {
-            
+            text[j] = text[current + 1];
+
         }
     }
 
