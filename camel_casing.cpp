@@ -16,7 +16,8 @@ std::string to_camel_case(std::string text)
 
             for (int j = current_index; j < length; j++)
             {
-                text[j] = text[j + 1];
+                
+                text[j] = text[j + 2];
             }
         }
     }
