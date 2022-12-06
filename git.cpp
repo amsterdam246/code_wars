@@ -12,6 +12,7 @@ int main(void)
        int  current  = i; 
         for(int j ; j < length; j++)
         {
+            
             text[j] = text[current + 1];
 
         }
