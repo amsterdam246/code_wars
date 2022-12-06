@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-int main(void)
+int main()
 {
 
     string text[] = {"green", "vs", "yellow", "bubble"};
