@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    string text[] = {"green", "vs", "yellow", "bubble"};
+    string text[] = {"green", "versus", "blue", "bubble"};
     int length = size(text);
     for (int i = 0; i < length; i++)
     {
