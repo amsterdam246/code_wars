@@ -5,7 +5,7 @@
 -this is a bullet
 *or this.
 
-*this is italycs*
+*this is italics*
 **this is bold**
 ***all bold and italics***
 **bold and *italics* at sametime**
