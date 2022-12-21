@@ -9,14 +9,14 @@ std::string to_camel_case(std::string text)
     {
 
         int current_index = i;
-        if (text[current_index] == '_' || text[current_index] =='-') // second if to find the occurrence of the underscore
+        if (text[current_index] == '_' || text[current_index] == '-') // second if to find the occurrence of the underscore
         {
             char converted = ((static_cast<int>(text[current_index + 1])) - 32);
             text[current_index + 1] = converted;
 
             for (int j = current_index; j < length; j++)
             {
-                
+
                 text[j] = text[j + 1];
             }
         }
