@@ -7,8 +7,6 @@ void reverse(char str[4])
     int length = sizeof(str[4]) / sizeof(str[0]);
     char empty_string[length];
 
-
-
     int count = 0;
     for (int i = length; i > 0; i--)
     {
