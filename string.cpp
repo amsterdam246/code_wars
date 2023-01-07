@@ -1,29 +1,32 @@
-//this program reverses a string.
 #include <iostream>
-
 using namespace std;
 
 // write a function that accepts a string parameter, reverses each string value.
-void reverse(string text)
+void reverse(char str[4])
 {
-    int length = 4;
-    string empty_string[length];
+    int length = sizeof(str[4]) / sizeof(str[0]);
+    char empty_string[length];
+
+
 
     int count = 0;
-    for (int i = length ; i > 0; i--) //reverse the string 
+    for (int i = length; i > 0; i--)
     {
-        empty_string[count] = text[i];
+        empty_string[count] = str[i];
         count++;
     }
 
-    for (int i = 0; i < length; i++)//print the reversed string
+    for (int i = 0; i < length; i++)
     {
         cout << empty_string[i];
     }
+
+    cout<<"end of string";
 }
- 
+
 int main()
 {
-   string name = "jack"; 
+
+    char name[] = "jackson";
     reverse(name);
 }

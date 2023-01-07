@@ -35,7 +35,6 @@ Reference-style:
 
 
 ```
-code blocks
 
 ```
 
