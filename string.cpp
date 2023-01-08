@@ -19,7 +19,6 @@ void reverse(char str[4])
         cout << empty_string[i];
     }
 
-    cout<<"end of string";
 }
 
 int main()
