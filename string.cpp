@@ -27,4 +27,6 @@ int main()
     char name[] = "jackson";
     reverse(name);
     cout<<"endofline";
+    cout<<"diff tool";
+
 }
