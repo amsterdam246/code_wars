@@ -29,4 +29,6 @@ int main()
     cout<<"endofline";
     cout<<"diff tool";
 
+    cout<<"this is the part for testing"; //added this part for testing
+
 }
