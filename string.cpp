@@ -26,8 +26,5 @@ int main()
 
     char name[] = "jackson";
     reverse(name);
-    
-
-
 
 }
